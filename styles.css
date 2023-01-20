@@ -1,16 +1,8 @@
 .box{
 	display:flex;
 	flex-wrap:wrap;
-}
-
-.one{
-	flex:  1 auto;
-}
-
-.two{
-	flex:  1 auto
-}
-
-.three{
-	flex: 1 auto
+	flex-direction:row;
+	justify-content:space-between;
+	height=100px;
+	align-content:space-between;
 }
